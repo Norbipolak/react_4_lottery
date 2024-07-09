@@ -115,6 +115,7 @@ function Lottery() {
         //ha a started az még false, akkor returnölünk
 
         setHits(0);
+        //ezt fontos, hogy akkor nullázuk le amikor bejöttünk ide nem amiután összeszámoltuk, hanem majd a következő körben kell, hogy 0 legyen
         /*
         ez nagyon fontos, hogyha van két tömbünk és meg akarjuk nézni, hogy egyeznek-e az elemei, akkor végigmegyünk 
         az egyiken és minden egyes körben megnézzük, hogy az adott elem benne van-e a másik tömbben, tehát
